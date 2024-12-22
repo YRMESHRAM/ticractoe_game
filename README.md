@@ -88,7 +88,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For queries, suggestions, or collaborations:
 
-- **GitHub**: [your-username](https://github.com/YRMESHRAM)
+- **GitHub**: [YRMESHRAM](https://github.com/YRMESHRAM)
 
 
 
