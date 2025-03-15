@@ -1,106 +1,70 @@
-Tic Tac Toe Game
+# Tic Tac Toe Game
 
 A web-based implementation of the classic Tic Tac Toe game built with Flask, JavaScript, and PyScript. This project provides an interactive and fun way to play Tic Tac Toe against a bot or a friend.
 
-Features
+## Features
 
-Play with Bot or Friend: Choose between playing against a simple AI bot or another player.
+- **Play with Bot or Friend**: Choose between playing against a simple AI bot or another player.
+- **Flask Backend**: Handles game logic and API requests.
+- **Dynamic UI**: The board updates dynamically using JavaScript.
+- **Winner Announcement**: Displays the winner and highlights the winning cells.
+- **Game Reset**: Restart the game easily from the menu.
+- **Stylish UI**: Responsive and visually appealing interface with CSS animations.
 
-Flask Backend: Handles game logic and API requests.
+## File Structure
 
-Dynamic UI: The board updates dynamically using JavaScript.
+```
+├── app.py        # Flask backend handling game state and logic
+├── templates
+│   ├── index.html  # Frontend UI
+├── static
+│   ├── style.css   # Styles for the Tic Tac Toe game
+│   ├── script.js   # JavaScript for handling frontend game logic
+```
 
-Winner Announcement: Displays the winner and highlights the winning cells.
+## Installation and Usage
 
-Game Reset: Restart the game easily from the menu.
+### Prerequisites
 
-Stylish UI: Responsive and visually appealing interface with CSS animations.
+- Python 3.x installed on your system.
+- Flask installed (`pip install flask`).
 
-File Structure
+### How to Run
 
-index.html: Frontend UI with PyScript integration.
+#### Clone the Repository:
+```sh
+git clone https://github.com/YRMESHRAM/AI_tic-tac-toe.git
+```
 
-style.css: Styles for the Tic Tac Toe game.
+#### Navigate to the Project Directory:
+```sh
+cd AI_tic-tac-toe
+```
 
-script.js: JavaScript for handling frontend game logic.
-
-app.py: Flask backend handling game state and logic.
-
-Installation and Usage
-
-Prerequisites
-
-Python 3.x installed on your system.
-
-Flask installed (pip install flask).
-
-How to Run
-
-Clone the Repository:
-
-git clone https://github.com/your-username/tictactoe-web.git
-
-Navigate to the Project Directory:
-
-cd tictactoe-web
-
-Run the Flask Server:
-
+#### Run the Flask Server:
+```sh
 python app.py
+```
 
-Open the Game in Browser:
+#### Open the Game in Browser:
+Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 
-Visit http://127.0.0.1:5000/ in your browser.
+## How to Play
 
-Play:
+1. Select a mode: Play against a bot or a friend.
+2. Players take turns placing their marks (**X** or **O**) by clicking on the grid.
+3. The first player to align three marks vertically, horizontally, or diagonally wins.
+4. If all cells are filled without a winner, the game ends in a draw.
+5. The game can be reset anytime from the menu.
 
-Choose to play with a bot or a friend.
 
-Click on a cell to make a move.
+## License
 
-The game announces the winner or a draw.
+This project is licensed under the **MIT License**.
 
-Reset anytime using the menu.
-
-How to Play
-
-Select a mode: Play against a bot or a friend.
-
-Players take turns placing their marks (X or O) by clicking on the grid.
-
-The first player to align three marks vertically, horizontally, or diagonally wins.
-
-If all cells are filled without a winner, the game ends in a draw.
-
-The game can be reset anytime from the menu.
-
-Contribution
-
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-
-Create a new branch:
-
-git checkout -b feature-name
-
-Commit your changes:
-
-git commit -m "Add feature-name"
-
-Push to the branch:
-
-git push origin feature-name
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
+## Contact
 
 For queries, suggestions, or collaborations:
 
-GitHub: YRMESHRAM
+- **GitHub**: [YRMESHRAM](https://github.com/YRMESHRAM)
 
