@@ -1,94 +1,106 @@
-# Tic Tac Toe Game 
+Tic Tac Toe Game
 
-A GUI-based implementation of the classic Tic Tac Toe game built with Python and Tkinter. This project provides an interactive and fun way to play Tic Tac Toe with a simple and user-friendly interface.
+A web-based implementation of the classic Tic Tac Toe game built with Flask, JavaScript, and PyScript. This project provides an interactive and fun way to play Tic Tac Toe against a bot or a friend.
 
----
+Features
 
-## Features
+Play with Bot or Friend: Choose between playing against a simple AI bot or another player.
 
-- **Interactive Gameplay**: Play against another player on the same system.
-- **Reset Option**: Quickly reset the game to start a new match.
-- **Dynamic Updates**: Buttons update dynamically to reflect players' moves.
-- **Winner Announcement**: Notifies the winner or declares a draw when the game ends.
-- **Responsive Design**: Buttons resize dynamically within the game window.
+Flask Backend: Handles game logic and API requests.
 
----
+Dynamic UI: The board updates dynamically using JavaScript.
 
-## File Structure
+Winner Announcement: Displays the winner and highlights the winning cells.
 
-- `tictactoe_new.py`: Main Python script containing the game logic and GUI implementation.
+Game Reset: Restart the game easily from the menu.
 
----
+Stylish UI: Responsive and visually appealing interface with CSS animations.
 
-## Installation and Usage
+File Structure
 
-### Prerequisites
+index.html: Frontend UI with PyScript integration.
 
-- Python 3.x installed on your system.
+style.css: Styles for the Tic Tac Toe game.
 
-### How to Run
+script.js: JavaScript for handling frontend game logic.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/tictactoe-game.git
-   ```
+app.py: Flask backend handling game state and logic.
 
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd tictactoe-game
-   ```
+Installation and Usage
 
-3. **Run the Game**:
-   ```bash
-   python tictactoe_new.py
-   ```
+Prerequisites
 
-4. **Play**:
-   Enjoy the game in the Tkinter GUI window that opens.
+Python 3.x installed on your system.
 
----
+Flask installed (pip install flask).
 
-## How to Play
+How to Run
 
-1. The game is played between two players (Player X and Player O).
-2. Players take turns clicking on the grid to place their mark (X or O).
-3. The first player to align three marks vertically, horizontally, or diagonally wins.
-4. If all cells are filled without a winner, the game ends in a draw.
+Clone the Repository:
 
----
+git clone https://github.com/your-username/tictactoe-web.git
 
-## Contribution
+Navigate to the Project Directory:
+
+cd tictactoe-web
+
+Run the Flask Server:
+
+python app.py
+
+Open the Game in Browser:
+
+Visit http://127.0.0.1:5000/ in your browser.
+
+Play:
+
+Choose to play with a bot or a friend.
+
+Click on a cell to make a move.
+
+The game announces the winner or a draw.
+
+Reset anytime using the menu.
+
+How to Play
+
+Select a mode: Play against a bot or a friend.
+
+Players take turns placing their marks (X or O) by clicking on the grid.
+
+The first player to align three marks vertically, horizontally, or diagonally wins.
+
+If all cells are filled without a winner, the game ends in a draw.
+
+The game can be reset anytime from the menu.
+
+Contribution
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
+Fork the repository.
 
----
+Create a new branch:
 
-## License
+git checkout -b feature-name
 
-This project is licensed under the [MIT License](LICENSE).
+Commit your changes:
 
----
+git commit -m "Add feature-name"
 
-## Contact
+Push to the branch:
+
+git push origin feature-name
+
+Open a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+Contact
 
 For queries, suggestions, or collaborations:
 
-- **GitHub**: [YRMESHRAM](https://github.com/YRMESHRAM)
-
-
+GitHub: YRMESHRAM
 
