@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+    <div id="menu">
+        <h1>Tic Tac Toe</h1>
+        <p>Choose a mode to start playing:</p>
+        <div class="controls">
+            <button class="menu-btn" onclick="startGame('bot')">Play with Bot</button>
+            <button class="menu-btn" onclick="startGame('friend')">Play with Friend</button>
+        </div>
+    </div>
+
+    <div id="game" style="display: none;">
+        <h1>Tic Tac Toe</h1>
+        <p id="turn-indicator">Player X's turn</p>
+        <div id="board"></div>
+        <button class="reset-btn" onclick="resetGame()">Back to Menu</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
